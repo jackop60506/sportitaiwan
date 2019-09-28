@@ -1,0 +1,985 @@
+	<form action="process.php" method="post" enctype="multipart/form-data">
+	<div class="table1" >
+	<b style="font-size:25px;  position: relative; left:38%;">106年運動i臺灣計畫</b></br>
+	<b style="font-size:25px; position: relative; left:34%;">
+	專案二、運動知識擴增專案
+	</b>
+	<b style="font-size:25px; position: relative; left:28%;"></br>
+	（二）提升運動參與途徑 訪視紀錄表
+	</b>
+	</br>
+	<b>(項目前有</b><b style='color:red;font-size:25px'>*</b><b>者請務必填寫)</b>
+	</b>
+	<div class="firstpart">
+		<b style='color:red;font-size:25px'>*</b>訪視日期 : 民國 <select name="year" id="year">
+								<option value="106">106</option>
+						 </select> 年
+						 <select name="month" id="month">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+						</select> 月
+						<select id="day" name="day" /> 
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+						  </select> 日
+			（星期<font name="dates_day" id="dates_day">日</font><input type="hidden" name="dates_day" value="日">）
+			<div>
+				<input type="hidden" name="manger_down" id="manger_down"value="manger_down_jackop60506">
+				<b style='color:red;font-size:25px'>*</b>訪視縣市 : <input size="25" type="text" name="wherego_city" placeholder="請輸入訪視縣市" >
+				<b style='color:red;font-size:25px'>*</b>辦理地點 : <input size="25" type="text" name="process_place" placeholder="請輸入辦理地點">
+				<b style='color:red;font-size:25px'>*</b>主辦單位 : <input size="25" type="text" name="manger" placeholder="請輸入主辦單位"><div/>
+				<div/>
+				<b style='color:red;font-size:25px'>*</b>活動全名 : <input size="60" type="text" name="activity_name" placeholder="請輸入活動全名"><div/>
+				<b style='color:red;font-size:25px'>*</b>本次活動是否辦理保險 ： <input type="radio" name="insurance" value="是"> <b>是</b>
+										<input type="radio" name="insurance"  value="否" ><b>否</b>(非訪視活動者免填) <b>(免填者請請填否)</b><div/>	
+				活動參與人次(非活動者免填；屬系列活動者，請填列訪視場次活動人數)：<input type="text" name="activity_people" placeholder="請輸入參與人數" >人
+												
+			</div>
+	</div>
+	
+	
+		<b style="font-size:25px;">壹、活動執行情形(必填)：</b><b style="text-decoration:underline;font-size:25px;">若勾有「不符」者，請至質性評述敘明實際執行情形</b>
+		<table>
+			<tr>
+				<th colspan='3' >
+					項目
+				</th>
+				
+				<th >
+					內容
+				</th>
+				<th width="60px">
+					符合
+				</th>
+				<th width="60px">
+					不符
+				</th>
+				<th style='border:0px;' width='15px'>
+					
+				</th>
+			</tr>
+				<tr>
+					<td rowspan="3" >
+						<b>共同項目</b>
+					</td>
+					<td  colspan='2'>
+						<b style='color:red;font-size:25px'>*</b>1-1 活動核實性(必填)
+					</td>
+					<td>
+						活動依原提報計畫日期或地點辦理，或能於活動前辦理日期或地點變更備查作業。
+					</td>
+					<td>
+						<input type="radio" name="1-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="1-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="1-1" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<b style='color:red;font-size:25px'>*</b>1-2 行銷宣傳性(必填)
+					</td>
+					<td>
+						活動現場可辨識屬體育署「運動i臺灣」年度計畫。
+					</td>
+					<td>
+						<input type="radio" name="1-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="1-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="1-2" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<b style='color:red;font-size:25px'>*</b>1-3 活動效益性(必填)
+					</td>
+					<td  >
+						活動「參與對象」或「辦理方式」與原核定專案活動一致。
+					</td>
+					<td>
+						<input type="radio" name="1-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="1-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="1-3" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan='50'>
+						<b>執行項目</b>
+					</td>
+					<td rowspan='10'>
+						2-1
+水域運動
+					</td>
+					<td rowspan='3'>
+						2-1-1水域自救觀摩與宣導
+
+					</td>
+					
+					<td >
+						協同相關局處辦理聯合記者會，或發布水安新聞稿。
+					</td>
+					<td>
+						<input type="radio" name="2-1-1-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-1-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-1-1" value="static" checked>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td >
+						結合消防海巡、救生團體辦理講座或觀摩會，對象應包含社區民眾。
+					</td>
+					<td>
+						<input type="radio" name="2-1-1-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-1-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-1-2" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td >
+						水中活動學員與教練比例以15比1為原則。
+					</td>
+					<td>
+						<input type="radio" name="2-1-1-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-1-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-1-3" value="static" checked>
+					</td>
+				</tr>
+				
+				<tr>
+					<td rowspan='2'>
+						2-1-2水域活動體驗營
+
+					</td>
+					<td >
+						以新住民、女性或銀髮族群為目標對象(家庭、親子)。
+					</td>
+					<td>
+						<input type="radio" name="2-1-2-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-2-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-2-1" value="static" checked>
+					</td>
+				</tr>
+				<!--
+				<tr>
+					<td >
+						可結合民間團體及大專院校辦理指導員培訓。
+					</td>
+					<td>
+						<input type="radio" name="2-1-2-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-2-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-2-2" value="static" checked>
+					</td>
+				</tr>
+				-->
+				<tr>
+					<td >
+						體驗活動以無動力水域運動為主。
+					</td>
+					<td>
+						<input type="radio" name="2-1-2-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-2-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-2-3" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan='2'>
+						2-1-3水上運動嘉年華
+					</td>
+					<td>
+						鼓勵各級學校、機關企業、社會團體組隊參加。
+					</td>
+					<td>
+						<input type="radio" name="2-1-3-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-3-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-3-1" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td >
+						可擇一規劃：水上展演會(水上運動展示及水陸體驗活動等)、救生技能趣味賽(救生水上漂、水域救生等競賽及闖關活動)。
+					</td>
+					<td>
+						<input type="radio" name="2-1-3-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-3-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-3-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='2'>
+						2-1-4防溺宣導品
+					</td>
+					<td >
+						宣傳多元水域環境，提醒防溺自救安全觀念。
+					</td>
+					<td>
+						<input type="radio" name="2-1-4-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-4-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-4-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						設計製作在地化宣導品。
+					</td>
+					<td>
+						<input type="radio" name="2-1-4-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-4-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-4-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						2-1-5端午龍舟競賽
+
+					</td>
+					<td >
+						規劃民眾體驗區。
+
+					</td>
+					<td>
+						<input type="radio" name="2-1-5" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-5" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-5" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='13'>
+						2-2 單車運動
+					</td>
+					<td rowspan='6'>
+						2-2-1單車成年禮100公里
+					</td>
+						<td >
+						參加人數參考該縣市所在地高中職學生人數五分之一以上。
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-1-1" value="static" checked>
+					</td>
+				</tr>
+				
+				<tr >
+					<td >
+						參與對象為16-18歲青少年為主。
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-1-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						參加學員需全程參加行前安全講習會。
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-1-3" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						工作人員與學員比至少1:10。
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-4" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-4" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-1-4" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						各縣市政府於轄內舉辦2場具特色之80公里路線。
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-5" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-5" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-1-5" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						原則於體育署7-9月單車運動季辦理。
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-6" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-1-6" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-1-6" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='3'>
+						2-2-2 單車快樂遊
+					</td>
+					<td >
+						參加學員需全程參加行前安全講習會。
+					</td>
+					<td>
+						<input type="radio" name="2-2-2-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-2-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-2-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						每縣市至少2場【其中至少1場於104年十大自行車經典路線共18條或於各縣市所屬自行車道辦理】，每梯次至少150人以上。
+					</td>
+					<td>
+						<input type="radio" name="2-2-2-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-2-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-2-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						工作人員與學員比至少1:10。
+					</td>
+					<td>
+						<input type="radio" name="2-2-2-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-2-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-2-3" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='4'>
+						2-2-3 單車育樂營
+					</td>
+					<td >
+						至少辦理2場，每場20-30人次。
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-3-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						活動天數3-5天(總時數12小時)。
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-3-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						課程內容包含安全騎乘教育、行前檢查、基本保養與維修、基本傷害防護、自我體能訓練及騎乘體驗(至少15公里)等。
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-3-3" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						工作人員與學員比至少1:10。
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-4" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-3-4" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-3-4" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='9'>
+						2-3 原住民族傳統運動
+
+					</td>
+					<td rowspan='2'>
+						2-3-1 原住民族鄉鎮市區綜合運動會
+					</td>
+					<td >
+						以原住民為參賽對象。
+					</td>
+					<td>
+						<input type="radio" name="2-3-1-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-1-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-1-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						至少3種原住民族傳統運動競賽。
+					</td>
+					<td>
+						<input type="radio" name="2-3-1-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-1-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-1-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='3'>
+						2-3-2原住民族傳統地方特色體育活動
+					</td>
+					<td >
+						辦理原民族全單一種類傳統特色體育展演、活動或研習推廣為主。
+					</td>
+					<td>
+						<input type="radio" name="2-3-2-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-2-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-2-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						活動時間以1天為原則。
+					</td>
+					<td>
+						<input type="radio" name="2-3-2-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-2-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-2-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						參加人員具有原住民身分者應達60%以上。
+					</td>
+					<td>
+						<input type="radio" name="2-3-2-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-2-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-2-3" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='4'>
+						2-3-3原住民族傳統運動樂活營
+					</td>
+					<td >
+						以推廣、樂趣化為原則。
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-3-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						運動課程以原住民傳統特色運動為限。
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-3-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						於暑假期間辦理，每梯次至少5天，且參加人數至少30人(運動種類如有特殊性，得酌以調減人數)。
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-3-3" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						參加人員具有原住民族身分者應達60%以上。
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-4" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-3-3-4" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-3-3-4" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='16'>
+						2-4 身心障礙者運動
+					</td>
+					<td rowspan='2'>
+						2-4-1 身心障礙運動大集合、體驗營或單項運動比賽
+					</td>
+					<td >
+						活動性質不得屬郊遊、露營、學校戶外教學。
+					</td>
+					<td>
+						<input type="radio" name="2-4-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td style="text-align:left;">
+						依下列項目，擇一活動類別勾選是否符合:</br>
+						(1.)運動大集合：須包含2種以上身心障礙類別。</br>
+						(2.)體驗營：常態性(每週至少1次)，每梯次至少20-30人</br>
+						(3.)比賽活動：以1天為原則，每梯次至少60-80人參加					</td>
+					<td colspan="3">
+						<select name="2-4-1-13" id="2-4-1-13_select"/> 
+								<option value="static">不選擇</option>
+								<option value="false">不符合</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+						</select>		
+								
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='5'>
+						2-4-2身心障礙運動推動觀摩(研習)會
+					</td>
+					<td >
+						每一研習會時間至少2天。
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-2-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						結合縣市身心障礙運動會或單項運動比賽，辦理研習人員實習。
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-2-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						每梯次參加人數應有30-40人以上。
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-2-3" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						承辦單位須申請學習時數認可作業。
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-4" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-4" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-2-4" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						研習內容：各運動種類裁判、教練、指導員研習或體位分級認知研習會。
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-5" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-2-5" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-2-5" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='2'>
+						2-4-3身心障礙綜合性運動會
+					</td>
+					<td >
+						至少有4種身心障礙運動種類。
+					</td>
+					<td>
+						<input type="radio" name="2-4-3-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-3-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-3-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						規劃含2種以上障礙類別者參與。
+					</td>
+					<td>
+						<input type="radio" name="2-4-3-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-3-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-3-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='4'>
+						2-4-4身心障礙運動活力養成班
+					</td>
+					<td >
+						鼓勵各縣市政府善用所屬公有室內閒置空間，提供身心障礙者(含銀髮族)專屬簡易休閒運動場地，以辦理常態性運動養成班。
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-4-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						以室內空間約40坪為主，得酌以調整坪數。
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-4-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						應將各該場所訊息納入各縣市政府網站之運動地圖。
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-4-3" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						每周至少1次60至90分鐘，期程至少6個月。
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-4" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-4-4" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-4-4" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td rowspan='3'>
+						2-4-5身心障礙福利機構游泳(樂活)活動
+					</td>
+					<td >
+						與學校或游泳池機構合作辦理游泳體驗營，辦理時間至少規劃5天為一期，每班身心障礙者至少8人。
+					</td>
+					<td>
+						<input type="radio" name="2-4-5-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-5-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-5-1" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						助理教練及身心障礙學員比，原則應達1:3。
+					</td>
+					<td>
+						<input type="radio" name="2-4-5-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-5-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-5-2" value="static" checked>
+					</td>
+				</tr>
+				<tr >
+					<td >
+						游泳池應配有合格救生員，教練至少有一位具有身心障礙游泳教學經驗。
+					</td>
+					<td>
+						<input type="radio" name="2-4-5-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-4-5-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-4-5-3" value="static" checked>
+					</td>
+				</tr>
+				
+			</table>
+		<div class="thirdpart">
+			<b style="font-size:25px">質性評述 (皆為必填)</b>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">一、	優點特色 </b>
+			
+			<font style="font-style:italic;">請針對</font>
+			<b style="font-style:italic;text-decoration:underline;">共同與執行項目</b>
+			<font style="font-style:italic;">中之活動</font>
+			<b style="font-style:italic;text-decoration:underline;">優點特色</b>
+			<font style="font-style:italic;">撰述</font>
+
+			<br>
+			<textarea style="width:500px; height:100px;" name="nice_special"/></textarea>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">二、	建議評述 </b>
+			<font style="font-style:italic;">請針對</font>
+			<b style="font-style:italic;text-decoration:underline;">共同與執行項目</b>
+			<font style="font-style:italic;">中活動</font>
+			<b style="font-style:italic;text-decoration:underline;">不符</b>
+			<font style="font-style:italic;">或</font>
+			<b style="font-style:italic;text-decoration:underline;">待改善</b>
+			<font style="font-style:italic;">之建議部分撰述</font>
+			<br>
+			<textarea style="width:500px; height:100px;" name="Suggest"/></textarea>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">三、	其他  </b>
+			<font style="font-style:italic;">請依</font>
+			<b style="font-style:italic;text-decoration:underline;">未包含</b>
+			<font style="font-style:italic;">於共同與執行項目中之活動優點或建議撰述(如:活動規劃、行銷包裝、資源整合等情形)</font>
+			<br>
+			<textarea style="width:500px; height:100px;" name="notsame"/></textarea>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">四、	承辦單位反饋</b>
+			<font style="font-style:italic;">請填列執行單位對本計畫、縣市政府或體育署之相關建議</font>
+			
+			<br>
+			<textarea style="width:500px; height:100px;" name="feedback"/></textarea>
+			<br>
+			<b style="font-size:25px">貳、照片集錦：至少2張，可自行增列表格</b>
+			<br>
+			圖1<br>
+			<b style="color:red;font-size:25px">*</b><input type="file" name="p1" ><br>	
+			輸入圖1的說明
+			<br>
+			<textarea style="width:500px; height:100px;" name="p1_text">請輸入說明</textarea><br>
+			<br>
+			<hr size="1px" width="900px">
+			<br>
+			圖2<br>
+			<b style="color:red;font-size:25px">*</b><input type="file" name="p2" ><br>
+			輸入圖2的說明
+			<br>
+			<textarea style="width:500px; height:100px;" name="p2_text">請輸入說明</textarea>
+		</div>	
+		<input type="hidden" name="page" value="2">
+		<input type="hidden" name="picstate1" value="not_exist">
+		<input type="hidden" name="picstate2" value="not_exist">
+		<input type="hidden" name="picstate3" value="not_exist">
+		<input type="hidden" name="picstate4" value="not_exist">
+		<input type="hidden" name="noname_whether" value="no">
+		<hr size="1px" width="900px">
+		<button type="button" id="addpic" style="font-size:20px;width:250px;height:50px">點此新增一列圖片上傳區</button>
+		<input type="submit" style="margin-left:700px;width:200px; height:30px" value="輸入完成後按此提交">
+		</div>
+	

@@ -1,0 +1,409 @@
+
+	<form action="process.php" method="post" enctype="multipart/form-data">
+	<div class="table1" >
+	<b style="font-size:25px;  position: relative; left:38%;">106年運動i臺灣計畫</b></br>
+	<b style="font-size:25px;  position: relative; left:27%;">
+專案三、運動種子傳遞專案 訪視紀錄表</b></br>
+<b>
+<b>(項目前有</b><b style='color:red;font-size:25px'>*</b><b>者請務必填寫)</b>
+</b>
+	<div class="firstpart">
+		<b style='color:red;font-size:25px'>*</b>訪視日期 : 民國 <select name="year" id="year">
+								<option value="106">106</option>
+						 </select> 年
+						 <select name="month" id="month">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+						</select> 月
+						<select id="day" name="day" /> 
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+						  </select> 日
+			（星期<font name="dates_day" id="dates_day">日</font><input type="hidden" name="dates_day" value="日">）
+			<div>
+				<input type="hidden" name="manger_down" id="manger_down"value="manger_down_jackop60506">
+				<b style='color:red;font-size:25px'>*</b>訪視縣市 : <input size="25" type="text" name="wherego_city" placeholder="請輸入訪視縣市" >
+				<b style='color:red;font-size:25px'>*</b>辦理地點 : <input size="25" type="text" name="process_place" placeholder="請輸入辦理地點">
+				<b style='color:red;font-size:25px'>*</b>主辦單位 : <input size="25" type="text" name="manger" placeholder="請輸入主辦單位"><div/>
+				<div/>
+				<b style='color:red;font-size:25px'>*</b>活動全名 : <input size="60" type="text" name="activity_name" placeholder="請輸入活動全名">(非訪視活動者免填)<b>(免填者請請填無</b>)<br>
+				<b style='color:red;font-size:25px'>*</b>本次活動是否辦理保險 ： <input type="radio" name="insurance" value="是"> <b>是</b>
+										<input type="radio" name="insurance"  value="否" ><b>否</b>(非訪視活動者免填) <b>(免填者請請填否)</b><br>	
+				活動參與人次(非活動者免填；屬系列活動者，請填列訪視場次活動人數)：<input type="text" name="activity_people" placeholder="請輸入參與人數" >人
+												
+			</div>
+	</div>
+	
+	
+		<b style="font-size:25px;">壹、活動執行情形(必填)：</b><b style="text-decoration:underline;font-size:25px;">若勾有「不符」者，請至質性評述敘明實際執行情形</b>
+		<table>
+			<tr>
+				<th colspan='3'>
+					項目
+				</th>
+				
+				<th>
+					內容
+				</th>
+				<th width="60px">
+					符合
+				</th>
+				<th width="60px">
+					不符
+				</th>
+				<th style='border:0px;' width='15px'>
+					
+				</th>
+			</tr>
+				<tr>
+					<td rowspan="3" >
+						<b>共同項目</b>
+					</td>
+					<td  colspan='2'>
+						<b style='color:red;font-size:25px'>*</b>1-1 活動核實性(必填)
+					</td>
+					<td>
+						活動依原提報計畫日期或地點辦理，或能於活動前辦理日期或地點變更備查作業。
+					</td>
+					<td>
+						<input type="radio" name="1-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="1-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="1-1" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<b style='color:red;font-size:25px'>*</b>1-2 行銷宣傳性(必填)
+					</td>
+					<td>
+						活動現場可辨識屬體育署「運動i臺灣」年度計畫。
+					</td>
+					<td>
+						<input type="radio" name="1-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="1-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="1-2" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<b style='color:red;font-size:25px'>*</b>1-3 活動效益性(必填)
+					</td>
+					<td  >
+						活動「參與對象」或「辦理方式」與原核定專案活動一致。
+					</td>
+					<td>
+						<input type="radio" name="1-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="1-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="1-3" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan='13'>
+						<b>執行項目</b>
+					</td>
+					<td rowspan='3' colspan='2'>
+						2-1 推動體育運動志願服務工作
+					</td>
+					<td>
+						志工實際服務體育署運動i臺灣計畫之活動。
+					</td>
+					<td>
+						<input type="radio" name="2-1-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-1" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						志工訓練包含基礎訓練及特殊訓練。
+					</td>
+					<td>
+						<input type="radio" name="2-1-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-2" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						為完成志工訓練並領有志願服務紀錄冊之志工辦理意外事故保險。
+					</td>
+					<td>
+						<input type="radio" name="2-1-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-1-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-1-3" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan='10' colspan='2'>
+						2-2 巡迴運動指導團隊
+					</td>
+					<td>
+						主動結合縣內各族群既有通路，直接接觸目標族群。
+					</td>
+					<td>
+						<input type="radio" name="2-2-1" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-1" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-1" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						主動派駐運動指導人力至縣市既有運動場域或活動現場。
+					</td>
+					<td>
+						<input type="radio" name="2-2-2" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-2" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-2" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						提供各執行單位、企業及相關需求單位提出知能講座申請管道。
+					</td>
+					<td>
+						<input type="radio" name="2-2-3" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-3" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-3" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						須組成工作團隊辦理規劃、執行及行政作業。
+					</td>
+					<td>
+						<input type="radio" name="2-2-4" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-4" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-4" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						授課講師需具運動指導能力相關證照。
+					</td>
+					<td>
+						<input type="radio" name="2-2-5" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-5" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-5" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						講授內容以提升民眾運動觀念與知能、激發民眾投入或持續參與運動或針對特定族群設計專屬講座為規劃原則。
+					</td>
+					<td>
+						<input type="radio" name="2-2-6" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-6" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-6" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						以擴大受眾為辦理原則，與運動健身指導班等針對同一團體提供週期性運動指導課程概念不同。
+					</td>
+					<td>
+						<input type="radio" name="2-2-7" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-7" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-7" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						須針對參與人員辦理滿意度調查，並分析其結果。
+					</td>
+					<td>
+						<input type="radio" name="2-2-8" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-8" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-8" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						除正式講座外，建議於課程間或周邊規劃辦理運動相關周邊活動。
+					</td>
+					<td>
+						<input type="radio" name="2-2-9" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-9" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-9" value="static" checked>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						建議多元結合縣府資源辦理，以建立持續性推動機制。
+					</td>
+					<td>
+						<input type="radio" name="2-2-10" value="true">
+					</td>
+					<td>
+						<input type="radio" name="2-2-10" value="false">
+					</td>
+					<td >
+						<input type="radio"  name="2-2-10" value="static" checked>
+					</td>
+				</tr>
+				
+				
+			</table>
+		<div class="thirdpart">
+			<b style="font-size:25px">質性評述 (皆為必填)</b>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">一、	優點特色 </b>
+			
+			<font style="font-style:italic;">請針對</font>
+			<b style="font-style:italic;text-decoration:underline;">共同與執行項目</b>
+			<font style="font-style:italic;">中之活動</font>
+			<b style="font-style:italic;text-decoration:underline;">優點特色</b>
+			<font style="font-style:italic;">撰述</font>
+
+			<br>
+			<textarea style="width:500px; height:100px;" name="nice_special"/></textarea>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">二、	建議評述 </b>
+			<font style="font-style:italic;">請針對</font>
+			<b style="font-style:italic;text-decoration:underline;">共同與執行項目</b>
+			<font style="font-style:italic;">中活動</font>
+			<b style="font-style:italic;text-decoration:underline;">不符</b>
+			<font style="font-style:italic;">或</font>
+			<b style="font-style:italic;text-decoration:underline;">待改善</b>
+			<font style="font-style:italic;">之建議部分撰述</font>
+			<br>
+			<textarea style="width:500px; height:100px;" name="Suggest"/></textarea>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">三、	其他  </b>
+			<font style="font-style:italic;">請依</font>
+			<b style="font-style:italic;text-decoration:underline;">未包含</b>
+			<font style="font-style:italic;">於共同與執行項目中之活動優點或建議撰述(如:活動規劃、行銷包裝、資源整合等情形)</font>
+			<br>
+			<textarea style="width:500px; height:100px;" name="notsame"/></textarea>
+			<br>
+			<b style="color:red;font-size:25px">*</b><b style="font-size:20px">四、	承辦單位反饋</b>
+			<font style="font-style:italic;">請填列執行單位對本計畫、縣市政府或體育署之相關建議</font>
+			
+			<br>
+			<textarea style="width:500px; height:100px;" name="feedback"/></textarea>
+			<br>
+			<b style="font-size:25px">貳、照片集錦：至少2張，可自行增列表格</b>
+			<br>
+			圖1<br>
+			<b style="color:red;font-size:25px">*</b><input type="file" name="p1" ><br>	
+			輸入圖1的說明
+			<br>
+			<textarea style="width:500px; height:100px;" name="p1_text">請輸入說明</textarea><br>
+			<br>
+			<hr size="1px" width="900px">
+			<br>
+			圖2<br>
+			<b style="color:red;font-size:25px">*</b><input type="file" name="p2" ><br>
+			輸入圖2的說明
+			<br>
+			<textarea style="width:500px; height:100px;" name="p2_text">請輸入說明</textarea>
+		</div>	
+		<input type="hidden" name="page" value="3">
+		<input type="hidden" name="picstate1" value="not_exist">
+		<input type="hidden" name="picstate2" value="not_exist">
+		<input type="hidden" name="picstate3" value="not_exist">
+		<input type="hidden" name="picstate4" value="not_exist">
+		<input type="hidden" name="noname_whether" value="no">
+		<hr size="1px" width="900px">
+		<button type="button" id="addpic" style="font-size:20px;width:250px;height:50px">點此新增一列圖片上傳區</button>
+		<input type="submit" style="margin-left:700px;width:200px; height:30px" value="輸入完成後按此提交">
+		</div>
+	
